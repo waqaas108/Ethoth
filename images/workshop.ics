@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+PRODID:-//Symplicity Corporation//PHP ICS Generator//EN
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+DTSTART:20230312T020000
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20231105T020000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20240310T020000
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:901838f583e1bead2f86f32b0ed6d1ad368518e0@grad-uchicago-csm.symplicity.com
+DTSTAMP:20240109T144252Z
+SUMMARY:Career30: Resume Best Practices (Data Science Edition) & Data Science and Analytics Career Fair Prep Session
+DESCRIPTION:Location: Online\nDescription: Join us to learn how to best prepare for the Data Science and Analytics Career Fair. The first half of the hour will consist of resume best practices. In the second half\, we’ll cover topics including logistics for the in-person event\, researching companies\, making a compelling pitch\, and how to follow up after the event. ​\n\nFor more information\, log into UChicagoGRAD Gargoyle:\n\n	https://grad-uchicago-csm.symplicity.com/students/
+DTSTART;TZID=America/Chicago:20240213T160000
+DTEND;TZID=America/Chicago:20240213T170000
+LOCATION:Online
+END:VEVENT
+END:VCALENDAR
